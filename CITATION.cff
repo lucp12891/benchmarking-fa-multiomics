@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Benchmarking Factor-Based Models for Integrative Analysis of Large-Scale Biomolecular Data"
+authors:
+  - family-names: "Osang'ir"
+    given-names: "Bernard Isekah"
+    affiliation: "SCK CEN / Hasselt University"
+  - family-names: "Ahmed"
+    given-names: "Mohamed Mysara"
+    affiliation: "SCK CEN / Nile University"
+  - family-names: "Mastroleo"
+    given-names: "Felice"
+    affiliation: "SCK CEN"
+  - family-names: "Leys"
+    given-names: "Natalie"
+    affiliation: "SCK CEN"
+  - family-names: "Claesen"
+    given-names: "Jurgen"
+    affiliation: "Hasselt University / Amsterdam UMC"
+  - family-names: "Gupta"
+    given-names: "Surya"
+    affiliation: "SCK CEN"
+    email: "surya.gupta@sckcen.be"
+  - family-names: "Shkedy"
+    given-names: "Ziv"
+    affiliation: "Hasselt University"
+    email: "ziv.shkedy@uhasselt.be"
+journal: "BMC Bioinformatics"
+year: 2026
+repository-code: "https://github.com/YOUR_ORG/benchmarking-fa-multiomics"
+license: MIT
+keywords:
+  - multi-omics
+  - factor analysis
+  - MOFA
+  - FABIA
+  - MFA
+  - GFA
+  - benchmarking
+  - simulation
+  - bioinformatics
