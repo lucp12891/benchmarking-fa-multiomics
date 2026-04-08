@@ -165,4 +165,4 @@ MIT License. See `LICENSE` for details.
 
 ## Contact
 
-Correspondence: **Surya Gupta** (surya.gupta@sckcen.be) · **Ziv Shkedy** (ziv.shkedy@uhasselt.be)
+Correspondence: **Surya Gupta** (surya.gupta@sckcen.be) · **Jürgen Claesen** (jurgen.claesen@uhasselt.be) · **Ziv Shkedy** (ziv.shkedy@uhasselt.be)
