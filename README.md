@@ -24,6 +24,10 @@ benchmarking-fa-multiomics/
 ├── FIGURES.md                  # Figure → script map (main text)
 ├── LICENSE  ·  CITATION.cff
 │
+├── data/                       # Datasets used in the paper
+│   ├── CLL/                    # CLL — loaded via the MOFAdata package (see README)
+│   └── radiation/             # RNA-seq + proteomics matrices + metadata + submission tables
+│
 ├── functions/                  # Shared simulation engine
 │   ├── libs.R                  # Package loading
 │   ├── factor_methods.R        # FABIA / MOFA / MFA / GFA fitting + extractors
