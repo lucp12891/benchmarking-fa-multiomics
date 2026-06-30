@@ -31,10 +31,8 @@ benchmarking-fa-multiomics/
 │   │   ├── factor_alignment.R  # Factor matching across methods
 │   │   └── preprocessing.R     # Data loading and normalization
 │   ├── methods/
-│   │   ├── run_mofa.R          # MOFA wrapper
-│   │   ├── run_mfa.R           # MFA wrapper
-│   │   ├── run_gfa.R           # GFA wrapper
-│   │   └── run_fabia.R         # FABIA wrapper (multi-omics adaptation)
+│   │   ├── r_pipeline_cll.R    # Analysis of CLL data
+│   │   ├── r_pipeline_rad.R    # Analysis of radiation data
 │   └── plots/
 │       ├── plot_scores.R       # Factor score plots (Figures 3, 10)
 │       ├── plot_loadings.R     # Factor loading heatmaps (Figures 4, 11)
