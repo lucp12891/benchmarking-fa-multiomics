@@ -1,0 +1,32 @@
+# R session / build artifacts
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# renv library (keep renv.lock, ignore the local library)
+renv/library/
+renv/local/
+renv/staging/
+
+# Generated data (raw inputs are downloaded, not committed)
+data/CLL/*.rds
+data/radiation/*.rds
+data/radiation/*.csv
+
+# Generated results and figures
+results/**/*.rds
+results/**/*.csv
+figures/*.png
+figures/*.pdf
+figures/*.tiff
+
+# MOFA model files
+*.hdf5
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*~

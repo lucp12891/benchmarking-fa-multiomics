@@ -26,13 +26,16 @@ benchmarking-fa-multiomics/
 │
 ├── R/
 │   ├── utils/
+│   │   ├── libs.R              # Centralized package loading
 │   │   ├── metrics.R           # Jaccard, cosine similarity, Pearson correlation
 │   │   ├── thresholding.R      # Six cutoff strategies (τ1–τ6)
 │   │   ├── factor_alignment.R  # Factor matching across methods
 │   │   └── preprocessing.R     # Data loading and normalization
 │   ├── methods/
-│   │   ├── r_pipeline_cll.R    # Analysis of CLL data
-│   │   ├── r_pipeline_rad.R    # Analysis of radiation data
+│   │   ├── run_mofa.R          # MOFA wrapper
+│   │   ├── run_mfa.R           # MFA wrapper
+│   │   ├── run_gfa.R           # GFA wrapper
+│   │   └── run_fabia.R         # FABIA wrapper (multi-omics adaptation)
 │   └── plots/
 │       ├── plot_scores.R       # Factor score plots (Figures 3, 10)
 │       ├── plot_loadings.R     # Factor loading heatmaps (Figures 4, 11)
@@ -88,10 +91,12 @@ if (!require("BiocManager")) install.packages("BiocManager")
 BiocManager::install(c("MOFA2", "MOFAdata"))
 ```
 
-R version ≥ 4.2.0 is recommended. A full `renv.lock` is provided for exact reproducibility.
+R version ≥ 4.2.0 is recommended. For exact reproducibility you can snapshot the
+package environment with [`renv`](https://rstudio.github.io/renv/); once an
+`renv.lock` is committed, collaborators restore it with:
 
 ```r
-# Restore exact package environment
+# Restore exact package environment (after renv::snapshot() has been committed)
 install.packages("renv")
 renv::restore()
 ```
@@ -163,4 +168,4 @@ MIT License. See `LICENSE` for details.
 
 ## Contact
 
-Correspondence: **Surya Gupta** (surya.gupta@sckcen.be) · **Jürgen Claesen** (jurgen.claesen@uhasselt.be) · **Ziv Shkedy** (ziv.shkedy@uhasselt.be)
+Correspondence: **Surya Gupta** (surya.gupta@sckcen.be) · **Ziv Shkedy** (ziv.shkedy@uhasselt.be)
