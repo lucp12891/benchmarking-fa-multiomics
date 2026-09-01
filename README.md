@@ -6,7 +6,7 @@
 
 > **Osang'ir et al. (2026)**. *Benchmarking Factor-Based Models for Integrative Analysis of Large-Scale Biomolecular Data: Performance, Robustness, and Interpretability*
 
-This repository contains the analysis code behind the paper, which benchmarks four factor analysis (FA)-based methods — **MOFA**, **MFA**, **GFA**, and **FABIA** across two real-world multi-omics datasets (CLL, radiation) and large scale simulation study.
+This repository contains the analysis code behind the paper, which benchmarks four factor analysis (FA)-based methods; **MOFA**, **MFA**, **GFA**, and **FABIA** across two real-world multi-omics datasets (CLL, radiation) and large scale simulation study.
 
 The code is organized by **manuscript section**. For an exact figure-by-figure map, see **[FIGURES.md](FIGURES.md)**.
 
