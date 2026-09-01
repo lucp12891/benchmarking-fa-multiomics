@@ -4,15 +4,11 @@
 [![R Version](https://img.shields.io/badge/R-%3E%3D4.2.0-blue)](https://www.r-project.org/)
 [![SUMO on CRAN](https://img.shields.io/cran/v/SUMO)](https://CRAN.R-project.org/package=SUMO)
 
-> **Osang'ir et al. (2026)** — *Benchmarking Factor-Based Models for Integrative Analysis of Large-Scale Biomolecular Data: Performance, Robustness, and Interpretability*
+> **Osang'ir et al. (2026)**. *Benchmarking Factor-Based Models for Integrative Analysis of Large-Scale Biomolecular Data: Performance, Robustness, and Interpretability*
 
-This repository contains the analysis code behind the paper, which benchmarks four
-factor analysis (FA)-based methods — **MOFA**, **MFA**, **GFA**, and **FABIA** —
-across two real-world multi-omics datasets (CLL, radiation) and a systematic
-simulation study.
+This repository contains the analysis code behind the paper, which benchmarks four factor analysis (FA)-based methods — **MOFA**, **MFA**, **GFA**, and **FABIA** across two real-world multi-omics datasets (CLL, radiation) and large scale simulation study.
 
-The code is organized by **manuscript section**. For an exact figure-by-figure
-map, see **[FIGURES.md](FIGURES.md)**.
+The code is organized by **manuscript section**. For an exact figure-by-figure map, see **[FIGURES.md](FIGURES.md)**.
 
 ---
 
